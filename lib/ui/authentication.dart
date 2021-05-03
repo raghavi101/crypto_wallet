@@ -18,9 +18,10 @@ class _AuthenticationState extends State<Authentication> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
-          color: Colors.green[200],
+          color: Colors.blueAccent,
         ),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             TextFormField(
               controller: _emailField,
